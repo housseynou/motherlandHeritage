@@ -49,14 +49,15 @@ export const ProdInfo = styled.div`
 `
 
 export const Price = styled.div`
-    
+    padding-right: 3px;
 `
 
 export const Button = styled.button`
     color: orange;
+    font-size: 20px;
     width: 40px;
     height: 40px;
-   
+    padding: 0;
 `
 
 export const ButCont = styled.div`
@@ -64,6 +65,7 @@ export const ButCont = styled.div`
     flex-direction: column;
     position: absolute;
     right: 0;
+    padding-right: 2px;
     
 `
 ;
